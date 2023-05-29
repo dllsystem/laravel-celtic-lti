@@ -5,9 +5,13 @@
   "keywords": ["laravel","lti","celtic-project"],
   "homepage": "https://github.com/longhornopen/",
   "license": "LGPL-3.0-or-later",
+  "repositories": [{
+    "type": "vcs",
+    "url": "http://github.com/dllsystem/LTI-PHP"
+  }],
   "require": {
     "ext-pdo": "*",
-    "longhornopen/lti": "^4.10.1",
+    "celtic/lti": "master",
     "illuminate/support": "*"
   },
   "autoload": {
