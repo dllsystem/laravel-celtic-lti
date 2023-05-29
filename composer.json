@@ -11,7 +11,7 @@
   }],
   "require": {
     "ext-pdo": "*",
-    "celtic/lti": "master",
+    "celtic/lti": "dev-main",
     "illuminate/support": "*"
   },
   "autoload": {
